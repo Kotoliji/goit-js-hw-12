@@ -1,5 +1,4 @@
 import iziToast from "izitoast";
-import "izitoast/dist/css/iziToast.min.css";
 import {showImage} from "./js/pixabay-api"
 import {AddImage} from "./js/render-function"
 
