@@ -1,6 +1,6 @@
 import iziToast from "izitoast";
-import {showImage} from "../src/js/pixabay-api"
-import {AddImage} from "../src/js/render-function"
+import {showImage} from "./js/pixabay-api"
+import {AddImage} from "./js/render-function"
 
 
 
