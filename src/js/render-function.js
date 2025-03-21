@@ -27,5 +27,4 @@ export function AddImage(pictures){
 
 }
 
-// var gallery = $('.pictureImage').simpleLightbox();
-// gallery.next();
+
