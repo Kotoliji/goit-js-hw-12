@@ -2,7 +2,7 @@ import iziToast from "izitoast";
 import {showImage} from "./js/pixabay-api"
 import {AddImage} from "./js/render-function"
 
-
+import './css/styles.css';
 
 
 let request

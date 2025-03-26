@@ -1,11 +1,11 @@
 {
-  "name": "vanilla-app-template",
+  "name": "goit-js-hw-12",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
+    "dev": "vite",
+    "build": "vite build",
     "preview": "vite preview",
     "prepush": "git add .",
     "push": "git commit -m 'update'",
