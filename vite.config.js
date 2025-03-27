@@ -21,12 +21,12 @@ export default defineConfig(({ command }) => {
               return 'vendor';
             }
           },
-          entryFileNames: chunkInfo => {
-            if (chunkInfo.name === 'commonHelpers') {
-              return 'commonHelpers.js';
-            }
-            return '[name].js';
-          },
+          // entryFileNames: chunkInfo => {
+          //   if (chunkInfo.name === 'commonHelpers') {
+          //     return 'commonHelpers.js';
+          //   }
+          //   return '[name].js';
+          // },
           assetFileNames: assetInfo => {
             if (assetInfo.name && assetInfo.name.endsWith('.html')) {
               return '[name].[ext]';
